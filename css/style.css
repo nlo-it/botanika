@@ -1,35 +1,35 @@
-body {
-    font-family: "Montserrat" sans-serif;
+.page-header
+.main-nav {}
+.main-nav-links {}
+.main-nav-links li {
+    list-style: none;
 }
-.page-header {}
-.logo-header {}
-
-.header-nav li:first-child {
-    font-family: "Montserrat" sans-serif;
-    /* font-style: normal; */
+.main-nav-links a {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    /* text-align: center; */
+    text-decoration: none;
     color: #AE7C78;
-    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-    list-style: none;
 }
+
 .link-on-catalog {}
 .delivery-and-payment {}
 .reviews {}
 .special-offers {}
 .contacts {}
 .basket {}
+.nav-links
 .visually-hidden {}
 .intro {}
-.button {}
 .popular {}
 .slider {}
 .slider-item {}
 .slider-item-content {}
 .slider-item-pic {}
 .slider-control {}
+.button {}
 .catalog-preview {}
 .catalog-item {}
 .catalog-item-content {}
@@ -38,7 +38,6 @@ body {
 .news {}
 .reviews {}
 .contacts {}
-.page-footer {}
 
 
 

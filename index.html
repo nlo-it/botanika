@@ -3,19 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="">
-        <meta name="description" content="">
+        <meta name="keywords" content="Цветы, букеты, продажа, купить букет цветов в Санкт-Петербурге, доставка цветов в Питере">
+        <meta name="description" content="Botanika - авторские букеты цветов в Петербурге с доставкой по всему городу.">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/style.css">
-        <link rel="stylesheet" href="/normalize.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Botanika. Магазин цветов в Санкт-Петербурге</title>
     </head>
     <body>
-        <header>
-            <nav class="main-nav">
-                <ul class="main-nav-links">
+        <!-- Линии сделать бордерами в CSS -->
+        <header class="page-header">
+            <!-- Логотип по центру - абсолютно позиционированный элемент -->
+            <a class="logo-header" href="#">
+                <img src="img/logo.svg" alt="Логотип магазина Botanica" width="100" height="32">
+            </a>
+            <nav class="header-nav">
+                <ul>
                     <li class="link-on-catalog">
                         <a href="#">Каталог</a>
                     </li>
@@ -24,9 +29,6 @@
                     </li>
                     <li class="reviews">
                         <a href="#">Отзывы</a>
-                    <a href="#">
-                        <img src="img/logo.svg" alt="Логотип магазина Botanica" width="100" height="32">
-                    </a>
                     </li>
                     <li class="special-offers">
                         <a href="#">Спецпредложения</a>
@@ -41,15 +43,14 @@
             </nav>
         </header>
         <main>
+            <!-- Дописать CSS для этого класса, прочитать статью "Как прятать на сайте Академии" -->
             <h1 class="visually-hidden">Botanika. Цветы и букеты в Санкт-Петербурге с доставкой</h1>
             <section class="intro">
                 <h2>Авторские букеты в Петербурге</h2>
                 <p>Оригинальные свежие букеты с доставкой по всему городу</p>
                 <a href="#" class="button">Смотреть каталог</a>
-                
                 <img src="img/bouquet-pink-tulips.png" alt="Букет розовых тюльпанов" width="386" height="404">
                 <img src="img/bouquet-colorful-roses.png" alt="Букет разноцветных роз" width="387" height="420">
-                
                 <dl>
                     <div>
                         <img src="img/fast-delivery-icon.svg" width="82" height="52" alt="Иконка быстрой доставки">
@@ -224,17 +225,17 @@
                 <ul>
                     <li>
                         <a href="#">
-                            <img src="img/instagram-icon-footer.svg" width="20" height="20" alt="Иконка инстаграма">
+                            <img src="img/instagram-icon.svg" width="20" height="20" alt="Иконка инстаграма">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/facebook-icon-footer.svg" width="12" height="20" alt="Иконка фейсбука">
+                            <img src="img/facebook-icon.svg" width="12" height="20" alt="Иконка фейсбука">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/twitter-icon-footer.svg" width="26" height="20" alt="Иконка твиттера">
+                            <img src="img/twitter-icon.svg" width="26" height="20" alt="Иконка твиттера">
                         </a>
                     </li>
                 </ul>
