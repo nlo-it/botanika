@@ -1,5 +1,26 @@
 .page-header {}
 .main-nav {}
+.main-nav-links {}
+.main-nav-links li {
+    list-style: none;
+}
+.main-nav-links a {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #AE7C78;
+}
+
+.link-on-catalog {}
+.delivery-and-payment {}
+.reviews {}
+.special-offers {}
+.contacts {}
+.basket {}
+.nav-links
 .visually-hidden {}
 .intro {}
 .popular {}
