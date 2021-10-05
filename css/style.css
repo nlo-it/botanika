@@ -1,35 +1,93 @@
-.page-header
-.main-nav {}
-.main-nav-links {}
-.main-nav-links li {
-    list-style: none;
+body {
+    font-family: "Montserrat", "Tahoma", sans-serif;
+    min-width: 1440px;
+    position: relative;
 }
-.main-nav-links a {
-    font-family: "Montserrat", sans-serif;
+.page-header {}
+.page-header a {
+    position: absolute;
+    left: 670px;
+    top: 42px;
+}
+.logo-header {}
+.header-nav {}
+.header-nav li {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.header-nav li:first-child {
+    position: absolute;
+    width: 66px;
+    height: 20px;
+    left: 120px;
+    top: 48px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-nav li:nth-child(2) {
+    position: absolute;
+    width: 154px;
+    height: 20px;
+    left: 288px;
+    top: 48px;
+}
+
+.header-nav li:nth-child(3) {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    left: 543px;
+    top: 48px;
+}
+
+.header-nav li:nth-child(4) {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 832px;
+    top: 48px;
+}
+
+.header-nav li:nth-child(5) {
+    position: absolute;
+    width: 78px;
+    height: 20px;
+    left: 1081px;
+    top: 48px;
+}
+
+.header-nav li:last-child {
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 1248px;
+    top: 48px;
+}
+
+.header-nav a {
     text-decoration: none;
     color: #AE7C78;
 }
-
 .link-on-catalog {}
 .delivery-and-payment {}
 .reviews {}
 .special-offers {}
 .contacts {}
 .basket {}
-.nav-links
 .visually-hidden {}
 .intro {}
+.button {}
 .popular {}
 .slider {}
 .slider-item {}
 .slider-item-content {}
 .slider-item-pic {}
 .slider-control {}
-.button {}
 .catalog-preview {}
 .catalog-item {}
 .catalog-item-content {}
@@ -38,6 +96,4 @@
 .news {}
 .reviews {}
 .contacts {}
-
-
-
+.page-footer {}
